@@ -46,4 +46,18 @@ console.log(textAfter);
 var finalText = textAfter.substr(0, textAfter.length/2);
 console.log(finalText);
 
-// 
+// zadanie 9.4
+
+
+function drawTree(h) {
+  for (i = 0; i <= h; i++) {
+    var star = " ";
+      for (j = 1; j <= i; j++) {
+        star += "*";
+      }
+      console.log(star);
+  }
+}
+
+h = prompt('Podaj wysokość choinki');
+drawTree(h);
