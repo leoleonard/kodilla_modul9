@@ -1,3 +1,5 @@
+/*
+
 // zadanie 9.1
 
 function getTriangleArea (a, h) {
@@ -59,5 +61,16 @@ function drawTree(h) {
   }
 }
 
-h = prompt('Podaj wysokość choinki');
-drawTree(h);
+// h = prompt('Podaj wysokość choinki');
+// drawTree(h);
+
+*/
+
+// zadanie 9.5
+
+
+ var btn = document.getElementsByClassName('button');
+
+ for (var i = 0; i < btn.length; i++) {
+    console.log(btn[i].innerText);
+ };
